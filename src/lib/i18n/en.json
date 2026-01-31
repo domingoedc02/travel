@@ -59,8 +59,8 @@
     "step3Desc": "Sit back and enjoy premium travel with our expert local guides."
   },
   "whyUs": {
-    "tagline": "Why Japan Ride",
-    "title": "The Japan Ride Difference",
+    "tagline": "Why Imperial Japan Tours",
+    "title": "The Imperial Japan Tours Difference",
     "feature1Title": "Premium Vehicles",
     "feature1Desc": "Travel in comfort with our fleet of luxury vehicles, from sedans to spacious vans.",
     "feature2Title": "Expert Local Guides",
@@ -93,7 +93,7 @@
       {
         "name": "Yuki Tanaka",
         "location": "Sydney, Australia",
-        "text": "As a Japanese-Australian, I wanted to show my family the real Japan. Japan Ride delivered an authentic experience that touched all of us deeply.",
+        "text": "As a Japanese-Australian, I wanted to show my family the real Japan. Imperial Japan Tours delivered an authentic experience that touched all of us deeply.",
         "rating": 5
       },
       {
@@ -115,8 +115,8 @@
   },
   "about": {
     "tagline": "Our Story",
-    "title": "About Japan Ride",
-    "intro": "Founded with a passion for sharing the beauty of Japan, Japan Ride has been connecting travelers with authentic Japanese experiences since 2018.",
+    "title": "About Imperial Japan Tours",
+    "intro": "Founded with a passion for sharing the beauty of Japan, Imperial Japan Tours has been connecting travelers with authentic Japanese experiences since 2018.",
     "story": "What began as a small tour service in Tokyo has grown into a premier travel experience company, serving thousands of happy travelers from around the world. Our team of dedicated local guides and travel experts work tirelessly to create journeys that capture the true essence of Japan.",
     "missionTitle": "Our Mission",
     "mission": "To bridge cultures through transformative travel experiences that honor Japanese traditions while creating lasting memories for every guest.",
@@ -257,7 +257,7 @@
     "newsletterDesc": "Subscribe for travel tips and exclusive offers.",
     "emailPlaceholder": "Your email",
     "subscribe": "Subscribe",
-    "copyright": "© 2024 Japan Ride. All rights reserved.",
+    "copyright": "© 2024 Imperial Japan Tours. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
   }

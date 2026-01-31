@@ -7,32 +7,32 @@ import { ScrollAnimation, StaggerContainer, StaggerItem } from "@/components/sha
 
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&h=400&fit=crop",
+    src: "/images/unsplash/zen-garden.jpg",
     alt: "Cherry blossoms in Tokyo",
     span: "col-span-1 row-span-1",
   },
   {
-    src: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=600&h=800&fit=crop",
+    src: "/images/unsplash/shrine-path.jpg",
     alt: "Traditional Japanese gate",
     span: "col-span-1 row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?w=600&h=400&fit=crop",
+    src: "/images/unsplash/bamboo-grove.jpg",
     alt: "Bamboo forest in Kyoto",
     span: "col-span-1 row-span-1",
   },
   {
-    src: "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=600&h=400&fit=crop",
+    src: "/images/unsplash/tokyo-tower.jpg",
     alt: "Tokyo cityscape at night",
     span: "col-span-1 row-span-1",
   },
   {
-    src: "https://images.unsplash.com/photo-1493780474015-ba834fd0ce2f?w=600&h=400&fit=crop",
+    src: "/images/unsplash/japanese-garden.jpg",
     alt: "Mount Fuji with lake",
     span: "col-span-1 row-span-1",
   },
   {
-    src: "https://images.unsplash.com/photo-1504109586057-7a2ae83d1338?w=600&h=400&fit=crop",
+    src: "/images/unsplash/cherry-blossom.jpg",
     alt: "Japanese temple garden",
     span: "col-span-1 row-span-1",
   },

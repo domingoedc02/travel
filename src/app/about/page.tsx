@@ -21,9 +21,9 @@ const teamMembers = [
 ];
 
 const aboutImages = [
-  "https://images.unsplash.com/photo-1492571350019-22de08371fd3?w=800&h=600&fit=crop",
-  "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&h=600&fit=crop",
-  "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=800&h=600&fit=crop",
+  "/images/unsplash/japanese-street.jpg",
+  "/images/unsplash/zen-garden.jpg",
+  "/images/unsplash/temple-gates.jpg",
 ];
 
 export default function AboutPage() {
@@ -34,7 +34,7 @@ export default function AboutPage() {
       {/* Hero Banner */}
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1600&h=800&fit=crop"
+          src="/images/unsplash/kyoto-temple.jpg"
           alt="Japan landscape"
           fill
           className="object-cover"
@@ -81,7 +81,7 @@ export default function AboutPage() {
                   <div className="relative h-48 rounded-xl overflow-hidden">
                     <Image
                       src={aboutImages[0]}
-                      alt="About Japan Ride"
+                      alt="About Imperial Japan Tours"
                       fill
                       className="object-cover"
                       sizes="300px"
@@ -198,7 +198,7 @@ export default function AboutPage() {
             <ScrollAnimation variant="fadeLeft">
               <div className="relative h-80 rounded-2xl overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=600&fit=crop"
+                  src="/images/unsplash/shrine-path.jpg"
                   alt="Japanese culture"
                   fill
                   className="object-cover"

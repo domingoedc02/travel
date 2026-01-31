@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useI18n } from "@/lib/i18n/config";
 import { Instagram, Twitter, Facebook, Youtube, ArrowUp } from "lucide-react";
 
@@ -21,10 +22,14 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-full bg-aka-500 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">旅</span>
-              </div>
-              <span className="text-lg font-semibold">Japan Ride</span>
+              <Image
+                src="/images/logo.svg"
+                alt="Imperial Japan Tours"
+                width={40}
+                height={40}
+                className="h-10 w-10"
+              />
+              <span className="text-lg font-semibold">Imperial Japan Tours</span>
             </div>
             <p className="text-kuro-200 text-sm leading-relaxed mb-6">
               {t.footer.description}

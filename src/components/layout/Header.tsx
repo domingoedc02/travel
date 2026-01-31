@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
@@ -43,15 +44,20 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-full bg-aka-500 flex items-center justify-center">
-              <span className="text-white font-bold text-sm">旅</span>
-            </div>
+            <Image
+              src="/images/logo.svg"
+              alt="Imperial Japan Tours"
+              width={40}
+              height={40}
+              className="h-10 w-10"
+              priority
+            />
             <span
               className={`text-lg font-semibold tracking-tight transition-colors ${
                 isScrolled ? "text-sumi-900" : "text-white"
               }`}
             >
-              Japan Ride
+              Imperial Japan Tours
             </span>
           </Link>
 

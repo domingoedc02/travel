@@ -5,7 +5,7 @@ import { Footer } from "@/components/layout/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Japan Ride — Premium Japanese Travel Experiences",
+  title: "Imperial Japan Tours — Premium Japanese Travel Experiences",
   description:
     "Discover Japan through curated travel experiences. From Tokyo to Kyoto, Mount Fuji to Osaka — premium rides with expert local guides.",
   keywords: [
@@ -16,6 +16,10 @@ export const metadata: Metadata = {
     "Japanese travel",
     "Japan ride",
   ],
+  icons: {
+    icon: "/images/logo.svg",
+    apple: "/images/logo.svg",
+  },
 };
 
 export default function RootLayout({

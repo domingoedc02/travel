@@ -59,8 +59,8 @@
     "step3Desc": "経験豊富な地元ガイドとプレミアムな旅をお楽しみください。"
   },
   "whyUs": {
-    "tagline": "Japan Rideの魅力",
-    "title": "Japan Rideが選ばれる理由",
+    "tagline": "Imperial Japan Toursの魅力",
+    "title": "Imperial Japan Toursが選ばれる理由",
     "feature1Title": "プレミアム車両",
     "feature1Desc": "セダンからスペースのあるバンまで、快適な車両でご移動いただけます。",
     "feature2Title": "専門の地元ガイド",
@@ -93,7 +93,7 @@
       {
         "name": "田中ゆき",
         "location": "シドニー、オーストラリア",
-        "text": "日系オーストラリア人として、家族に本物の日本を見せたかったのです。Japan Rideは私たち全員の心に深く響く本物の体験を提供してくれました。",
+        "text": "日系オーストラリア人として、家族に本物の日本を見せたかったのです。Imperial Japan Toursは私たち全員の心に深く響く本物の体験を提供してくれました。",
         "rating": 5
       },
       {
@@ -115,8 +115,8 @@
   },
   "about": {
     "tagline": "私たちの物語",
-    "title": "Japan Rideについて",
-    "intro": "日本の美しさを共有する情熱から生まれたJapan Rideは、2018年から旅行者に本物の日本体験を提供しています。",
+    "title": "Imperial Japan Toursについて",
+    "intro": "日本の美しさを共有する情熱から生まれたImperial Japan Toursは、2018年から旅行者に本物の日本体験を提供しています。",
     "story": "東京の小さなツアーサービスとして始まったものが、世界中の何千人もの幸せな旅行者にサービスを提供するプレミアトラベル体験会社に成長しました。私たちの専任ローカルガイドと旅行専門家のチームは、日本の真髄を捉える旅を創り出すために日々努力しています。",
     "missionTitle": "私たちの使命",
     "mission": "日本の伝統を尊重しながら、すべてのゲストに忘れられない思い出を創り出す、変革的な旅行体験を通じて文化の架け橋となること。",
@@ -257,7 +257,7 @@
     "newsletterDesc": "旅のヒントや限定オファーを受け取る。",
     "emailPlaceholder": "メールアドレス",
     "subscribe": "登録する",
-    "copyright": "© 2024 Japan Ride. All rights reserved.",
+    "copyright": "© 2024 Imperial Japan Tours. All rights reserved.",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約"
   }

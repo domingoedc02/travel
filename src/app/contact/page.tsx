@@ -47,7 +47,7 @@ export default function ContactPage() {
       {/* Hero Banner */}
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1600&h=800&fit=crop"
+          src="/images/unsplash/zen-garden.jpg"
           alt="Cherry blossoms in Japan"
           fill
           className="object-cover"

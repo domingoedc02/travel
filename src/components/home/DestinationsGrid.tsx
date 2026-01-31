@@ -10,22 +10,22 @@ import { ArrowRight } from "lucide-react";
 const destinations = [
   {
     key: "tokyo" as const,
-    image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&h=600&fit=crop",
+    image: "/images/unsplash/tokyo-skyline.jpg",
     color: "from-kuro-900/80",
   },
   {
     key: "kyoto" as const,
-    image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop",
+    image: "/images/unsplash/kyoto-temple.jpg",
     color: "from-aka-900/80",
   },
   {
     key: "fuji" as const,
-    image: "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?w=800&h=600&fit=crop",
+    image: "/images/unsplash/mount-fuji.jpg",
     color: "from-sumi-900/80",
   },
   {
     key: "osaka" as const,
-    image: "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=800&h=600&fit=crop",
+    image: "/images/unsplash/osaka-street.jpg",
     color: "from-gold-900/80",
   },
 ];
