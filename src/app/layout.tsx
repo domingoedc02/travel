@@ -32,7 +32,7 @@ export default function RootLayout({
       <body className="bg-washi-100 text-sumi-900 antialiased">
         <Providers>
           <Header />
-          <main>{children}</main>
+          <main className="relative z-0">{children}</main>
           <Footer />
         </Providers>
       </body>
