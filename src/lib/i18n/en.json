@@ -1,0 +1,264 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "title": "Discover Japan",
+    "titleJp": "日本を発見する",
+    "subtitle": "Experience the harmony of ancient tradition and modern wonder through curated journeys across the Land of the Rising Sun.",
+    "cta": "Book Your Journey",
+    "scroll": "Scroll to explore"
+  },
+  "intro": {
+    "tagline": "Your Gateway to Japan",
+    "title": "Travel Beyond the Ordinary",
+    "description": "We craft immersive Japanese travel experiences that go beyond sightseeing. From serene temple visits in Kyoto to the electric energy of Tokyo's streets, every journey is designed with care, authenticity, and the spirit of omotenashi — Japanese hospitality.",
+    "highlight1Title": "Curated Routes",
+    "highlight1Desc": "Handpicked destinations and hidden gems",
+    "highlight2Title": "Local Guides",
+    "highlight2Desc": "Bilingual experts who share authentic stories",
+    "highlight3Title": "Seamless Travel",
+    "highlight3Desc": "Door-to-door comfort in premium vehicles"
+  },
+  "destinations": {
+    "tagline": "Popular Destinations",
+    "title": "Explore Iconic Japan",
+    "tokyo": {
+      "name": "Tokyo",
+      "nameJp": "東京",
+      "description": "Where ultramodern meets traditional in the world's most exciting metropolis."
+    },
+    "kyoto": {
+      "name": "Kyoto",
+      "nameJp": "京都",
+      "description": "Ancient temples, pristine gardens, and the heart of Japanese culture."
+    },
+    "fuji": {
+      "name": "Mount Fuji",
+      "nameJp": "富士山",
+      "description": "Japan's iconic sacred peak and UNESCO World Heritage site."
+    },
+    "osaka": {
+      "name": "Osaka",
+      "nameJp": "大阪",
+      "description": "Japan's kitchen — vibrant street food, nightlife, and warm hospitality."
+    }
+  },
+  "howItWorks": {
+    "tagline": "Simple Process",
+    "title": "How It Works",
+    "step1Title": "Choose Your Destination",
+    "step1Desc": "Browse our curated selection of Japanese destinations and tour packages.",
+    "step2Title": "Customize Your Trip",
+    "step2Desc": "Tell us your preferences and we'll craft the perfect itinerary for you.",
+    "step3Title": "Enjoy the Journey",
+    "step3Desc": "Sit back and enjoy premium travel with our expert local guides."
+  },
+  "whyUs": {
+    "tagline": "Why Japan Ride",
+    "title": "The Japan Ride Difference",
+    "feature1Title": "Premium Vehicles",
+    "feature1Desc": "Travel in comfort with our fleet of luxury vehicles, from sedans to spacious vans.",
+    "feature2Title": "Expert Local Guides",
+    "feature2Desc": "Our bilingual guides share insider knowledge and authentic cultural experiences.",
+    "feature3Title": "Flexible Scheduling",
+    "feature3Desc": "Your journey, your pace. We adapt to your schedule and preferences.",
+    "feature4Title": "Cultural Immersion",
+    "feature4Desc": "Go beyond tourist spots with experiences rooted in Japanese tradition.",
+    "feature5Title": "24/7 Support",
+    "feature5Desc": "Our team is always available to assist you throughout your journey.",
+    "feature6Title": "Best Price Guarantee",
+    "feature6Desc": "Transparent pricing with no hidden fees. Quality experiences at fair prices."
+  },
+  "testimonials": {
+    "tagline": "Guest Stories",
+    "title": "What Our Travelers Say",
+    "items": [
+      {
+        "name": "Sarah Mitchell",
+        "location": "New York, USA",
+        "text": "Our Kyoto temple tour was absolutely magical. The guide knew every hidden corner and shared stories that brought the history to life. An unforgettable experience.",
+        "rating": 5
+      },
+      {
+        "name": "Thomas Weber",
+        "location": "Berlin, Germany",
+        "text": "The Mount Fuji day trip exceeded all expectations. Perfectly organized, stunning views, and our driver was incredibly knowledgeable. Highly recommend!",
+        "rating": 5
+      },
+      {
+        "name": "Yuki Tanaka",
+        "location": "Sydney, Australia",
+        "text": "As a Japanese-Australian, I wanted to show my family the real Japan. Japan Ride delivered an authentic experience that touched all of us deeply.",
+        "rating": 5
+      },
+      {
+        "name": "Maria Santos",
+        "location": "São Paulo, Brazil",
+        "text": "From Tokyo's bustling streets to Osaka's food scene, every moment was carefully planned yet felt spontaneous. True omotenashi hospitality.",
+        "rating": 5
+      }
+    ]
+  },
+  "gallery": {
+    "tagline": "Visual Journey",
+    "title": "Moments from Japan"
+  },
+  "cta": {
+    "title": "Ready to Experience Japan?",
+    "subtitle": "Let us craft your perfect Japanese journey. Book today and discover the beauty of the Land of the Rising Sun.",
+    "button": "Start Your Journey"
+  },
+  "about": {
+    "tagline": "Our Story",
+    "title": "About Japan Ride",
+    "intro": "Founded with a passion for sharing the beauty of Japan, Japan Ride has been connecting travelers with authentic Japanese experiences since 2018.",
+    "story": "What began as a small tour service in Tokyo has grown into a premier travel experience company, serving thousands of happy travelers from around the world. Our team of dedicated local guides and travel experts work tirelessly to create journeys that capture the true essence of Japan.",
+    "missionTitle": "Our Mission",
+    "mission": "To bridge cultures through transformative travel experiences that honor Japanese traditions while creating lasting memories for every guest.",
+    "valuesTitle": "Our Values",
+    "value1Title": "Omotenashi",
+    "value1Desc": "The Japanese art of selfless hospitality — anticipating needs before they arise.",
+    "value2Title": "Authenticity",
+    "value2Desc": "Every experience is rooted in genuine Japanese culture and local knowledge.",
+    "value3Title": "Excellence",
+    "value3Desc": "We pursue perfection in every detail, from vehicle comfort to guide expertise.",
+    "value4Title": "Sustainability",
+    "value4Desc": "We respect and preserve the natural and cultural heritage of Japan.",
+    "teamTitle": "Our Team",
+    "culturalTitle": "Cultural Commitment",
+    "culturalDesc": "We believe travel should be a bridge between cultures. Our team works closely with local communities, temples, artisans, and cultural institutions to ensure our tours support and respect the places we visit."
+  },
+  "services": {
+    "tagline": "Our Services",
+    "title": "Tour Packages",
+    "subtitle": "Choose from our carefully curated selection of Japanese travel experiences.",
+    "bookNow": "Book Now",
+    "duration": "Duration",
+    "capacity": "Up to",
+    "passengers": "passengers",
+    "from": "From",
+    "perPerson": "per person",
+    "highlights": "Highlights",
+    "packages": [
+      {
+        "id": "tokyo-city-tour",
+        "name": "Tokyo City Tour",
+        "nameJp": "東京シティツアー",
+        "description": "Explore the dynamic contrast of Tokyo — from the serene Meiji Shrine to the neon-lit streets of Shibuya. Available as full-day or half-day options.",
+        "duration": "Full Day (8hrs) / Half Day (4hrs)",
+        "capacity": 6,
+        "price": "¥25,000",
+        "highlights": ["Meiji Shrine", "Shibuya Crossing", "Senso-ji Temple", "Harajuku", "Tokyo Tower"]
+      },
+      {
+        "id": "mount-fuji-day-trip",
+        "name": "Mount Fuji Day Trip",
+        "nameJp": "富士山日帰りツアー",
+        "description": "Witness the majesty of Japan's most iconic peak. Visit the 5th Station, explore Hakone, and enjoy views of Lake Kawaguchi.",
+        "duration": "Full Day (10hrs)",
+        "capacity": 6,
+        "price": "¥35,000",
+        "highlights": ["Fuji 5th Station", "Lake Kawaguchi", "Hakone", "Oshino Hakkai", "Hot Spring Experience"]
+      },
+      {
+        "id": "kyoto-temple-circuit",
+        "name": "Kyoto Temple Circuit",
+        "nameJp": "京都寺院巡り",
+        "description": "Journey through Kyoto's most magnificent temples and shrines. Walk the iconic bamboo groves and experience traditional tea ceremony.",
+        "duration": "Full Day (9hrs)",
+        "capacity": 6,
+        "price": "¥30,000",
+        "highlights": ["Fushimi Inari", "Kinkaku-ji", "Arashiyama Bamboo", "Tea Ceremony", "Geisha District"]
+      },
+      {
+        "id": "osaka-food-culture",
+        "name": "Osaka Food & Culture",
+        "nameJp": "大阪グルメ文化体験",
+        "description": "Discover why Osaka is Japan's kitchen. Taste street food in Dotonbori, visit Osaka Castle, and explore the vibrant Shinsekai district.",
+        "duration": "Full Day (8hrs)",
+        "capacity": 6,
+        "price": "¥28,000",
+        "highlights": ["Dotonbori Street Food", "Osaka Castle", "Shinsekai", "Kuromon Market", "Namba District"]
+      },
+      {
+        "id": "nara-deer-park",
+        "name": "Nara Heritage Tour",
+        "nameJp": "奈良遺産ツアー",
+        "description": "Meet the friendly deer of Nara Park, visit the Great Buddha at Todai-ji, and stroll through ancient Kasuga Shrine's lantern-lined paths.",
+        "duration": "Half Day (5hrs)",
+        "capacity": 6,
+        "price": "¥20,000",
+        "highlights": ["Nara Deer Park", "Todai-ji Temple", "Kasuga Shrine", "Naramachi District"]
+      },
+      {
+        "id": "custom-private-tour",
+        "name": "Custom Private Tour",
+        "nameJp": "カスタムプライベートツアー",
+        "description": "Design your dream Japan experience. Tell us your interests and we'll create a bespoke itinerary tailored just for you.",
+        "duration": "Flexible",
+        "capacity": 8,
+        "price": "¥40,000",
+        "highlights": ["Personalized Itinerary", "Private Vehicle", "Dedicated Guide", "Flexible Schedule", "Special Requests Welcome"]
+      }
+    ]
+  },
+  "contact": {
+    "tagline": "Get in Touch",
+    "title": "Book Your Journey",
+    "subtitle": "Fill out the form below and our team will get back to you within 24 hours to confirm your booking.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "date": "Preferred Date",
+      "datePlaceholder": "Select a date",
+      "passengers": "Number of Passengers",
+      "passengersPlaceholder": "Select passengers",
+      "rideType": "Tour Package",
+      "rideTypePlaceholder": "Select a tour",
+      "specialRequests": "Special Requests",
+      "specialRequestsPlaceholder": "Any dietary needs, accessibility requirements, or special wishes...",
+      "submit": "Submit Booking Request",
+      "submitting": "Submitting...",
+      "success": "Thank you! Your booking request has been submitted. We'll contact you within 24 hours.",
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address",
+      "invalidPhone": "Please enter a valid phone number",
+      "futureDate": "Please select a future date"
+    },
+    "info": {
+      "addressTitle": "Visit Us",
+      "address": "1-2-3 Marunouchi, Chiyoda-ku\nTokyo 100-0005, Japan",
+      "emailTitle": "Email Us",
+      "email": "bookings@japanride.jp",
+      "phoneTitle": "Call Us",
+      "phone": "+81 3-1234-5678",
+      "hoursTitle": "Operating Hours",
+      "hours": "Monday – Sunday\n9:00 AM – 8:00 PM JST"
+    },
+    "social": {
+      "title": "Follow Us"
+    }
+  },
+  "footer": {
+    "description": "Premium Japanese travel experiences crafted with the spirit of omotenashi.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contactInfo": "Contact",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Subscribe for travel tips and exclusive offers.",
+    "emailPlaceholder": "Your email",
+    "subscribe": "Subscribe",
+    "copyright": "© 2024 Japan Ride. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

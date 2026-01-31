@@ -1,0 +1,264 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "私たちについて",
+    "services": "サービス",
+    "contact": "お問い合わせ",
+    "bookNow": "予約する"
+  },
+  "hero": {
+    "title": "日本を発見する",
+    "titleJp": "Discover Japan",
+    "subtitle": "古き良き伝統と現代の驚異が調和する旅。日出ずる国で、心に響く体験をお届けします。",
+    "cta": "旅を予約する",
+    "scroll": "スクロールして探索"
+  },
+  "intro": {
+    "tagline": "日本への入口",
+    "title": "特別な旅を体験する",
+    "description": "私たちは観光を超えた没入型の日本旅行体験をお届けします。京都の静寂な寺院から東京の活気ある街まで、おもてなしの心で、真心を込めた旅をデザインします。",
+    "highlight1Title": "厳選ルート",
+    "highlight1Desc": "厳選された目的地と隠れた名所",
+    "highlight2Title": "地元ガイド",
+    "highlight2Desc": "本物の物語を伝えるバイリンガル専門家",
+    "highlight3Title": "快適な移動",
+    "highlight3Desc": "プレミアム車両でドアツードアの快適さ"
+  },
+  "destinations": {
+    "tagline": "人気の目的地",
+    "title": "日本の名所を探索する",
+    "tokyo": {
+      "name": "東京",
+      "nameJp": "Tokyo",
+      "description": "超近代的と伝統的が出会う、世界で最もエキサイティングな大都市。"
+    },
+    "kyoto": {
+      "name": "京都",
+      "nameJp": "Kyoto",
+      "description": "古代の寺院、手入れの行き届いた庭園、日本文化の中心地。"
+    },
+    "fuji": {
+      "name": "富士山",
+      "nameJp": "Mount Fuji",
+      "description": "日本を象徴する霊峰であり、ユネスコ世界遺産。"
+    },
+    "osaka": {
+      "name": "大阪",
+      "nameJp": "Osaka",
+      "description": "日本の台所 — 活気あるストリートフード、ナイトライフ、温かいおもてなし。"
+    }
+  },
+  "howItWorks": {
+    "tagline": "簡単な手順",
+    "title": "ご利用の流れ",
+    "step1Title": "目的地を選ぶ",
+    "step1Desc": "厳選された日本の目的地とツアーパッケージをご覧ください。",
+    "step2Title": "旅をカスタマイズ",
+    "step2Desc": "ご要望をお聞かせください。完璧なプランをお作りします。",
+    "step3Title": "旅を楽しむ",
+    "step3Desc": "経験豊富な地元ガイドとプレミアムな旅をお楽しみください。"
+  },
+  "whyUs": {
+    "tagline": "Japan Rideの魅力",
+    "title": "Japan Rideが選ばれる理由",
+    "feature1Title": "プレミアム車両",
+    "feature1Desc": "セダンからスペースのあるバンまで、快適な車両でご移動いただけます。",
+    "feature2Title": "専門の地元ガイド",
+    "feature2Desc": "バイリンガルのガイドが、内部者しか知らない知識と本物の文化体験をお届けします。",
+    "feature3Title": "フレキシブルなスケジュール",
+    "feature3Desc": "お客様の旅、お客様のペース。スケジュールやご要望に合わせて対応します。",
+    "feature4Title": "文化の没入体験",
+    "feature4Desc": "日本の伝統に根ざした体験で、観光スポットを超えた旅を。",
+    "feature5Title": "24時間サポート",
+    "feature5Desc": "旅行中いつでもチームがサポートいたします。",
+    "feature6Title": "最良価格保証",
+    "feature6Desc": "隠れた費用のない透明な価格設定。良質な体験を適正価格で。"
+  },
+  "testimonials": {
+    "tagline": "お客様の声",
+    "title": "旅行者の感想",
+    "items": [
+      {
+        "name": "サラ・ミッチェル",
+        "location": "ニューヨーク、アメリカ",
+        "text": "京都の寺院ツアーは本当に魔法のようでした。ガイドさんは隠れた場所をすべて知っていて、歴史に命を吹き込む物語を共有してくれました。忘れられない経験です。",
+        "rating": 5
+      },
+      {
+        "name": "トーマス・ウェーバー",
+        "location": "ベルリン、ドイツ",
+        "text": "富士山日帰り旅行はすべての期待を超えました。完璧な組織、素晴らしい景色、そしてドライバーは非常に知識豊富でした。強くお勧めします！",
+        "rating": 5
+      },
+      {
+        "name": "田中ゆき",
+        "location": "シドニー、オーストラリア",
+        "text": "日系オーストラリア人として、家族に本物の日本を見せたかったのです。Japan Rideは私たち全員の心に深く響く本物の体験を提供してくれました。",
+        "rating": 5
+      },
+      {
+        "name": "マリア・サントス",
+        "location": "サンパウロ、ブラジル",
+        "text": "東京の賑やかな街から大阪のグルメシーンまで、すべての瞬間が丁寧に計画されながらも自然に感じられました。真のおもてなしです。",
+        "rating": 5
+      }
+    ]
+  },
+  "gallery": {
+    "tagline": "ビジュアルジャーニー",
+    "title": "日本の風景"
+  },
+  "cta": {
+    "title": "日本を体験する準備はできましたか？",
+    "subtitle": "完璧な日本の旅をお作りします。今すぐご予約いただき、日出ずる国の美しさを発見してください。",
+    "button": "旅を始める"
+  },
+  "about": {
+    "tagline": "私たちの物語",
+    "title": "Japan Rideについて",
+    "intro": "日本の美しさを共有する情熱から生まれたJapan Rideは、2018年から旅行者に本物の日本体験を提供しています。",
+    "story": "東京の小さなツアーサービスとして始まったものが、世界中の何千人もの幸せな旅行者にサービスを提供するプレミアトラベル体験会社に成長しました。私たちの専任ローカルガイドと旅行専門家のチームは、日本の真髄を捉える旅を創り出すために日々努力しています。",
+    "missionTitle": "私たちの使命",
+    "mission": "日本の伝統を尊重しながら、すべてのゲストに忘れられない思い出を創り出す、変革的な旅行体験を通じて文化の架け橋となること。",
+    "valuesTitle": "私たちの価値観",
+    "value1Title": "おもてなし",
+    "value1Desc": "ニーズを予測する、日本の無私のホスピタリティの芸術。",
+    "value2Title": "本物",
+    "value2Desc": "すべての体験は本物の日本文化と地域の知識に根ざしています。",
+    "value3Title": "卓越性",
+    "value3Desc": "車両の快適さからガイドの専門知識まで、あらゆる細部にこだわります。",
+    "value4Title": "持続可能性",
+    "value4Desc": "日本の自然と文化遺産を尊重し、保全に努めます。",
+    "teamTitle": "チーム紹介",
+    "culturalTitle": "文化への取り組み",
+    "culturalDesc": "旅は文化の架け橋であるべきだと私たちは信じています。地域のコミュニティ、寺院、職人、文化施設と緊密に協力し、訪問地を支え尊重するツアーを提供しています。"
+  },
+  "services": {
+    "tagline": "サービス",
+    "title": "ツアーパッケージ",
+    "subtitle": "厳選された日本の旅行体験からお選びください。",
+    "bookNow": "予約する",
+    "duration": "所要時間",
+    "capacity": "最大",
+    "passengers": "名様",
+    "from": "料金",
+    "perPerson": "（お一人様）",
+    "highlights": "ハイライト",
+    "packages": [
+      {
+        "id": "tokyo-city-tour",
+        "name": "東京シティツアー",
+        "nameJp": "Tokyo City Tour",
+        "description": "東京のダイナミックなコントラストを体験 — 静寂な明治神宮からネオンきらめく渋谷の街まで。終日・半日プランをご用意。",
+        "duration": "終日（8時間）/ 半日（4時間）",
+        "capacity": 6,
+        "price": "¥25,000",
+        "highlights": ["明治神宮", "渋谷スクランブル交差点", "浅草寺", "原宿", "東京タワー"]
+      },
+      {
+        "id": "mount-fuji-day-trip",
+        "name": "富士山日帰りツアー",
+        "nameJp": "Mount Fuji Day Trip",
+        "description": "日本で最も象徴的な山の雄大さを体感。五合目を訪れ、箱根を散策し、河口湖の絶景をお楽しみください。",
+        "duration": "終日（10時間）",
+        "capacity": 6,
+        "price": "¥35,000",
+        "highlights": ["富士五合目", "河口湖", "箱根", "忍野八海", "温泉体験"]
+      },
+      {
+        "id": "kyoto-temple-circuit",
+        "name": "京都寺院巡り",
+        "nameJp": "Kyoto Temple Circuit",
+        "description": "京都の壮大な寺院と神社を巡る旅。竹林の道を歩き、伝統的な茶道を体験。",
+        "duration": "終日（9時間）",
+        "capacity": 6,
+        "price": "¥30,000",
+        "highlights": ["伏見稲荷", "金閣寺", "嵐山竹林", "茶道体験", "祇園"]
+      },
+      {
+        "id": "osaka-food-culture",
+        "name": "大阪グルメ文化体験",
+        "nameJp": "Osaka Food & Culture",
+        "description": "大阪が「天下の台所」と呼ばれる理由を発見。道頓堀で食べ歩き、大阪城を訪問し、新世界を探索。",
+        "duration": "終日（8時間）",
+        "capacity": 6,
+        "price": "¥28,000",
+        "highlights": ["道頓堀食べ歩き", "大阪城", "新世界", "黒門市場", "なんば"]
+      },
+      {
+        "id": "nara-deer-park",
+        "name": "奈良遺産ツアー",
+        "nameJp": "Nara Heritage Tour",
+        "description": "奈良公園のフレンドリーな鹿に会い、東大寺の大仏を参拝し、春日大社の灯篭の道を散策。",
+        "duration": "半日（5時間）",
+        "capacity": 6,
+        "price": "¥20,000",
+        "highlights": ["奈良公園の鹿", "東大寺", "春日大社", "ならまち"]
+      },
+      {
+        "id": "custom-private-tour",
+        "name": "カスタムプライベートツアー",
+        "nameJp": "Custom Private Tour",
+        "description": "夢の日本体験をデザイン。ご興味をお聞かせいただければ、オーダーメイドのプランをお作りします。",
+        "duration": "フレキシブル",
+        "capacity": 8,
+        "price": "¥40,000",
+        "highlights": ["パーソナルプラン", "専用車両", "専属ガイド", "フレキシブルスケジュール", "特別リクエスト歓迎"]
+      }
+    ]
+  },
+  "contact": {
+    "tagline": "お問い合わせ",
+    "title": "旅を予約する",
+    "subtitle": "以下のフォームにご記入ください。24時間以内にチームからご連絡いたします。",
+    "form": {
+      "name": "お名前",
+      "namePlaceholder": "お名前をご入力ください",
+      "email": "メールアドレス",
+      "emailPlaceholder": "your@email.com",
+      "phone": "電話番号",
+      "phonePlaceholder": "+81 90-0000-0000",
+      "date": "ご希望日",
+      "datePlaceholder": "日付を選択",
+      "passengers": "乗客数",
+      "passengersPlaceholder": "人数を選択",
+      "rideType": "ツアーパッケージ",
+      "rideTypePlaceholder": "ツアーを選択",
+      "specialRequests": "特別なリクエスト",
+      "specialRequestsPlaceholder": "食事制限、アクセシビリティ要件、その他のご要望...",
+      "submit": "予約リクエストを送信",
+      "submitting": "送信中...",
+      "success": "ありがとうございます！予約リクエストが送信されました。24時間以内にご連絡いたします。",
+      "required": "この項目は必須です",
+      "invalidEmail": "有効なメールアドレスを入力してください",
+      "invalidPhone": "有効な電話番号を入力してください",
+      "futureDate": "未来の日付を選択してください"
+    },
+    "info": {
+      "addressTitle": "所在地",
+      "address": "〒100-0005\n東京都千代田区丸の内1-2-3",
+      "emailTitle": "メール",
+      "email": "bookings@japanride.jp",
+      "phoneTitle": "お電話",
+      "phone": "+81 3-1234-5678",
+      "hoursTitle": "営業時間",
+      "hours": "月曜日～日曜日\n9:00 AM – 8:00 PM（日本時間）"
+    },
+    "social": {
+      "title": "フォローする"
+    }
+  },
+  "footer": {
+    "description": "おもてなしの心で創るプレミアム日本旅行体験。",
+    "quickLinks": "クイックリンク",
+    "services": "サービス",
+    "contactInfo": "お問い合わせ",
+    "newsletter": "ニュースレター",
+    "newsletterDesc": "旅のヒントや限定オファーを受け取る。",
+    "emailPlaceholder": "メールアドレス",
+    "subscribe": "登録する",
+    "copyright": "© 2024 Japan Ride. All rights reserved.",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  }
+}
