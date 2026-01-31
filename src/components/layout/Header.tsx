@@ -32,6 +32,15 @@ export function Header() {
     setIsMobileMenuOpen(false);
   }, [pathname]);
 
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+    return () => document.body.classList.remove("overflow-hidden");
+  }, [isMobileMenuOpen]);
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
@@ -102,61 +111,85 @@ export function Header() {
 
           {/* Mobile menu button */}
           <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            onClick={() => setIsMobileMenuOpen(true)}
             className={`lg:hidden p-2 ${
               isScrolled ? "text-sumi-800" : "text-white"
             }`}
-            aria-label="Toggle menu"
+            aria-label="Open menu"
           >
-            {isMobileMenuOpen ? (
-              <X className="w-6 h-6" />
-            ) : (
-              <Menu className="w-6 h-6" />
-            )}
+            <Menu className="w-6 h-6" />
           </button>
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu — Full-Screen Overlay */}
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: "auto" }}
-            exit={{ opacity: 0, height: 0 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="lg:hidden bg-washi-200/98 backdrop-blur-lg border-b border-aka-100 overflow-hidden"
+            className="fixed inset-0 z-50 bg-kuro-900/95 backdrop-blur-xl lg:hidden flex flex-col"
           >
-            <nav className="flex flex-col px-6 py-4 gap-1">
+            {/* Close button */}
+            <div className="flex justify-end px-4 sm:px-6 lg:px-8 h-16 items-center">
+              <button
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="p-2 text-white/80 hover:text-white transition-colors"
+                aria-label="Close menu"
+              >
+                <X className="w-6 h-6" />
+              </button>
+            </div>
+
+            {/* Nav links — centered */}
+            <nav className="flex-1 flex flex-col items-center justify-center gap-6">
               {navLinks.map((link, i) => (
                 <motion.div
                   key={link.href}
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: i * 0.05 }}
+                  initial={{ opacity: 0, y: 24 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: 12 }}
+                  transition={{ delay: 0.1 + i * 0.07, duration: 0.35, ease: "easeOut" }}
+                  className="flex flex-col items-center"
                 >
                   <Link
                     href={link.href}
-                    className={`block py-3 text-base font-medium transition-colors ${
+                    className={`text-2xl sm:text-3xl font-medium transition-colors ${
                       pathname === link.href
-                        ? "text-aka-600"
-                        : "text-sumi-700 hover:text-aka-600"
+                        ? "text-aka-500"
+                        : "text-white/70 hover:text-white"
                     }`}
                   >
                     {t.nav[link.key]}
                   </Link>
+                  {pathname === link.href && (
+                    <motion.div
+                      layoutId="activeMobileNav"
+                      className="mt-2 w-1.5 h-1.5 rounded-full bg-aka-500"
+                      transition={{ duration: 0.3 }}
+                    />
+                  )}
                 </motion.div>
               ))}
-              <div className="flex items-center gap-3 pt-4 border-t border-sumi-100">
-                <LanguageSwitcher />
-                <Link
-                  href="/contact"
-                  className="flex-1 text-center px-5 py-2.5 bg-aka-500 text-white text-sm font-medium rounded-full hover:bg-aka-600 transition-colors"
-                >
-                  {t.nav.bookNow}
-                </Link>
-              </div>
             </nav>
+
+            {/* Bottom section */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.35, duration: 0.35, ease: "easeOut" }}
+              className="flex flex-col items-center gap-5 px-6 pb-10"
+            >
+              <LanguageSwitcher />
+              <Link
+                href="/contact"
+                className="w-full max-w-xs text-center px-6 py-3 bg-aka-500 text-white text-base font-medium rounded-full hover:bg-aka-600 transition-colors shadow-lg"
+              >
+                {t.nav.bookNow}
+              </Link>
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
