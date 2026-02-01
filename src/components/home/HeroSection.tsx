@@ -12,10 +12,8 @@ export function HeroSection() {
   return (
     <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
       <VideoBackground
-        desktopSrc="/videos/hero-desktop.mp4"
-        mobileSrc="/videos/hero-mobile.mp4"
-        desktopWebm="/videos/hero-desktop.webm"
-        mobileWebm="/videos/hero-mobile.webm"
+        desktopSrc="/videos/landscape.mp4"
+        mobileSrc="/videos/landscape.mp4"
       />
 
       {/* Fallback gradient if no video */}

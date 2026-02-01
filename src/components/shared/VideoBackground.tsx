@@ -38,7 +38,7 @@ export function VideoBackground({
         playsInline
         preload="metadata"
         poster={poster}
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover md:object-contain md:h-auto md:top-1/2 md:-translate-y-1/2"
       >
         {webmSrc && <source src={webmSrc} type="video/webm" />}
         <source src={mp4Src} type="video/mp4" />
